@@ -19,6 +19,11 @@
 		<junit.version>4.12</junit.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.mybatis.generator</groupId>
+			<artifactId>mybatis-generator-core</artifactId>
+			<version>1.3.5</version>
+		</dependency>
 		<!-- junit核心包 -->
 		<dependency>
 			<groupId>junit</groupId>
